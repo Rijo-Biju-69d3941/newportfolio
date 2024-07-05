@@ -1,0 +1,255 @@
+@import url('http:fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900;&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins,sans-serif';
+    scroll-behavior: smooth;
+}
+body{
+    color: #ededed;
+    background-color: #142c3d;
+}
+.header{
+    position: fixed;
+    top: 30px;
+    left: 10px;
+    width: 100%;
+    padding: 2px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+   
+    font-size: 30px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    
+
+
+}
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #ededed;
+
+}
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+
+
+
+}
+.home-content{
+    max-width: 600px;
+
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    transition: 0.4s;
+    transition-behavior: smooth;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+    transition: 0.4s;
+
+}
+.home-content p{
+    font-size: 22px;
+    margin: 20px 0 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    
+}
+
+.home-sci{
+    position: absolute;
+    bottom: 40px;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.home-sci a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    transition: .6s;
+}
+   
+.home-sci a:hover{
+color: #081b29;
+    scale: 1.9s;
+}
+.devid{
+    height: 500px;
+    margin: 90px;
+    border-radius: 40px;
+    transition-duration: 0.4s;
+}
+.about{
+    font-size: 30px;
+    color: #00abf0;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 50%;
+    font-size: 33px;
+    transition: .6s;
+}
+.about:hover{
+    color: #ededed;
+    cursor: pointer;
+}
+#about{
+    padding: 80px 0;
+    color: #00abf0;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 69%;
+    border-radius: 15px;
+    margin: 153px;
+    margin-top: 124px;
+
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.abt{
+    font-size: 60px;
+    font-weight: 600;
+    color: #ededed;
+    padding: 23px;
+    margin-left: -43px;
+    margin-top: 2px;
+
+}
+#para{
+    font-size: 24px;
+    margin: -43px;
+    margin-right: 35px;
+    margin-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.utub{
+    margin-left: 281px;
+    margin-right: 0px;
+}
+#vdo{
+   
+    padding: 22px;
+    color: #ededed;
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 269px;
+    
+}
+
+.navbar a:hover{
+    color: #00abf0;
+}
+.para1{
+    color:#ededed;
+    width: 350px;
+    height: 760px;
+    margin: 15px;
+    float: left;
+    border: 3px dashed #00abf0;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 170px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.para2{
+    color:#ededed;
+    width: 350px;
+    height: 760px;
+    margin: 15px;
+    float: left;
+    border: 3px dashed #00abf0;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#col-dev{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+h2{
+    align-items: center;
+    margin: 30px;
+    margin-left: 279px;
+}
+
+.devid:hover{
+    scale: 1.1;
+}
+.home-content h1:hover{
+    color: #00abf0;
+    scale: 0.9;
+}
+.home-content h3:hover{
+    color: #ededed;
+}
+span{
+    color: red;
+}
+
+.imgg{
+    border-radius: 20px;
+}
+.imggg{
+    border-radius: 20px;
+}
+@media screen,(min-width:400px)and(max-width:600px){
+    *{
+         margin: 0;
+         padding: 0;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+    }
